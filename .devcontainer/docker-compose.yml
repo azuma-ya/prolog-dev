@@ -1,0 +1,7 @@
+services:
+  prolog_devcontainer_test:
+    image: swipl:latest
+    volumes:
+      - ../:/workspace
+    working_dir: /workspace
+    tty: true

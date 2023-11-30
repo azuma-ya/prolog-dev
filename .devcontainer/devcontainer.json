@@ -1,0 +1,10 @@
+{
+  "dockerComposeFile": ["docker-compose.yml"],
+  "service": "prolog_devcontainer_test",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": ["rebornix.prolog"]
+    }
+  }
+}
